@@ -22,7 +22,6 @@ public class Filter {
                 logger.log("Элемент " + '"' + i + '"' + " не проходит");
         }
         logger.log("Прошло фильтр " + f + " элемента из " + source.size());
-
         return list;
     }
 }
